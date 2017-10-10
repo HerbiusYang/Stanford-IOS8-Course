@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F1B8E621F7C01F100160094 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1B8E611F7C01F100160094 /* CalculatorBrain.swift */; };
 		6FD1C67E1F61831600469191 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD1C67D1F61831600469191 /* AppDelegate.swift */; };
 		6FD1C6801F61831600469191 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD1C67F1F61831600469191 /* ViewController.swift */; };
 		6FD1C6831F61831600469191 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FD1C6811F61831600469191 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F1B8E611F7C01F100160094 /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 		6FD1C67A1F61831600469191 /* OS_Development.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OS_Development.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FD1C67D1F61831600469191 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FD1C67F1F61831600469191 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				6FD1C67D1F61831600469191 /* AppDelegate.swift */,
 				6FD1C67F1F61831600469191 /* ViewController.swift */,
 				6FD1C6811F61831600469191 /* Main.storyboard */,
+				6F1B8E611F7C01F100160094 /* CalculatorBrain.swift */,
 				6FD1C6841F61831600469191 /* Assets.xcassets */,
 				6FD1C6861F61831600469191 /* LaunchScreen.storyboard */,
 				6FD1C6891F61831600469191 /* Info.plist */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F1B8E621F7C01F100160094 /* CalculatorBrain.swift in Sources */,
 				6FD1C6801F61831600469191 /* ViewController.swift in Sources */,
 				6FD1C67E1F61831600469191 /* AppDelegate.swift in Sources */,
 			);
@@ -507,6 +511,7 @@
 				6FD1C6A41F61831600469191 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6FD1C6A51F61831600469191 /* Build configuration list for PBXNativeTarget "OS_DevelopmentTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				6FD1C6A71F61831600469191 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6FD1C6A81F61831600469191 /* Build configuration list for PBXNativeTarget "OS_DevelopmentUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				6FD1C6AA1F61831600469191 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
